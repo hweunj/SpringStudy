@@ -10,6 +10,6 @@ public interface UserInfoService {
 	public String searchNameService(Map<String, Object> info);
 	public int enrollUserInfoService(UserInfoEnrollRequestVO userInfoEnrollRequestVO);
 	public List<UserInfoVO> getUserInfoListService();
-	
+	public List<Map<String, Object>> searchUserInfoDBService(Map<String, Object> params);
 	
 }

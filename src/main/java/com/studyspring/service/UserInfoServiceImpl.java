@@ -32,5 +32,11 @@ public class UserInfoServiceImpl implements UserInfoService{
 		// TODO Auto-generated method stub
 		return useInfoDao.getUserInfoListDao();
 	}
+	
+	@Override
+	public List<Map<String, Object>> searchUserInfoDBService(Map<String, Object> params) {
+		return useInfoDao.searchUserInfoDBDao(params);
+	}
+	
 
 }

@@ -8,4 +8,5 @@ import com.studyspring.vo.UserInfoVO;
 public interface UserInfoDao {
 	public String searchNameDao(Map<String, Object> info);
 	public List<UserInfoVO> getUserInfoListDao();
+	public List<Map<String, Object>> searchUserInfoDBDao(Map<String, Object> params);
 }
